@@ -134,6 +134,9 @@ p{
 #slide-4:checked ~ .slides{
   transform: translateX(-75%);
 }
+.slide{
+  width: 100%;
+}
 #slide-1:checked ~ .slides-nav label#dot-1,
 #slide-2:checked ~ .slides-nav label#dot-2,
 #slide-3:checked ~ .slides-nav label#dot-3,
@@ -218,6 +221,9 @@ p{
   background-size: cover;
   background-position: center;
   background-attachment: var(--hero-attachment);
+}
+.hero-image-content{
+  width: 100%;
 }
 .hero-image-opacity{
   width: 100%;
